@@ -23,9 +23,9 @@ pip install asyncio
 #### Configure the bot
 
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `BOT_TOKEN` | `string` | The Bot Token |
-| `API_KEY` | `string` |Your Hypixel API key |
-| `PING_DISCORD_CHANNEL_ID` | `string` | The Discord channel ID where you want to recieve notifications when a player log on Hypixel |
+| Parameter | Description                |
+| :-------- | :------------------------- |
+| `BOT_TOKEN` | The Bot Token |
+| `API_KEY` |Your Hypixel API key |
+| `PING_DISCORD_CHANNEL_ID` | The Discord channel ID where you want to recieve notifications when a player log on Hypixel |
 
