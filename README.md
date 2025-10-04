@@ -1,26 +1,30 @@
+# Hypixel Login Tracker Bot
 
-# Hypixel Login Tracker
+A Discord bot to track Hypixel player logins in real-time.
 
-A discord bot to track when a player log on Hypixel.
+## Features
 
+- Tracks multiple Hypixel players
 
+- Notifies a Discord channel when a player logs in
 
+- Slash commands to add/remove players and view the tracking list
 
-## Installation
+- Fully asynchronous for smooth operation
+
+- Safe use of environment variables for API keys and tokens
 
 Every Python package needed :
 
 ```bash
-pip install discord
-
-pip install requests
-
-pip install asyncio
+pip install -r requirements.txt
 ```
-    
+
 ## Configuration
 
 #### Configure the bot
+
+Rename the `example.env` file to `.env`
 
 
 | Parameter | Description                |
@@ -28,4 +32,3 @@ pip install asyncio
 | `BOT_TOKEN` | The Bot Token |
 | `API_KEY` |Your Hypixel API key |
 | `PING_DISCORD_CHANNEL_ID` | The Discord channel ID where you want to recieve notifications when a player log on Hypixel |
-
